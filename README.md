@@ -127,21 +127,11 @@ NOVEL_AGENT_WORKSPACE=workspace
 
 ---
 
-## 6. 上传到 GitHub
 
-```bash
-cd novel_agent_studio
-git init
-git add .
-git commit -m "init novel agent studio"
-git branch -M main
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git push -u origin main
-```
 
 ---
 
-## 7. 可继续扩展的方向
+## 6. 可继续扩展的方向
 
 - 接入向量数据库：把长篇记忆、角色档案、章节内容做 RAG 检索。
 - 增加多模型路由：剧情规划用强推理模型，正文润色用高性价比模型。
